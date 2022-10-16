@@ -3,12 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(32, 32, 32);
+    color: rgb(252, 252, 252);
+}
+
+/* TEXTO PADRÃO*/
+h1{
+    padding: 10px;
+    font-size: 60px;
+}
+
+h2{
+    padding: 10px;
+    font-size: 40px;
+}
+
+p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+/* CARD PADRÃO */
+.card {
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    padding: 3%;
+    border: solid 1px rgba(14, 215, 50, 0.2);
+    border-radius: 10px;
+
 }
 
 /* BACKGROUND BODY */
-body 
-{
+body {
     width: 100%;
     min-height: 100vh;
     background-image: url(assets/img/bg-img/shattered-island.gif);
@@ -21,14 +48,14 @@ body
     height: 110px;
 
     background-color: transparent;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(15px);
     border-bottom: solid 1px rgba(14, 215, 50, 0.2);
 }
 
 #nav ul {
     display: flex;
     justify-content: space-between;
-    
+
     margin: auto;
     width: 30%;
     height: 100%;
@@ -52,3 +79,29 @@ body
 }
 
 /* SOBRE ---------------------------- */
+.container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#img-foto {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.card header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card-img-about{
+    width: 450px;
+}
+
+.card-text-about{
+    width: 950px;
+}
